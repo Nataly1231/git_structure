@@ -1,0 +1,264 @@
+@font-face {
+    font-family: "MullerBold";
+    font-display: swap;
+    src: url("../fonts/MullerBold.woff2") format("woff2"), 
+        url("../fonts/MullerBold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: "MullerRegular";
+    font-display: swap;
+    src: url("../fonts/MullerRegular.woff2") format("woff2"), 
+        url("../fonts/MullerRegular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;}
+*{margin: 0; 
+padding: 0;
+box-sizing: border-box;}
+body{font-family: "MullerRegular";}
+.first-screen{padding-top: 60px;
+height: 800px;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url('../img/background.jpg');}
+/*навигация*/
+.header{display: flex;
+justify-content: space-between;}
+.container{padding: 0px 63px 0px 110px;}
+.logo{display: flex;}
+.logo_img{margin: 0 10px;
+height: 55px;}
+.logo_title{color: #46B1DE;
+font-size: 25px;
+font-family: "MullerBold";
+font-weight: 700;}
+.text-dentist{font-size: 22px;}
+.nav{display: flex;
+justify-content: space-between;
+grid-column-gap: 44px;
+width: 350px;}
+.nav_item:hover{color: #0591CC;}
+.nav_item{text-decoration: none;
+color: #1B1D1F;
+font-size: 16px;
+transition: color 0.4s linear;}
+.phone_img{padding-right: 8px;}
+.number{text-decoration: none;
+color: black;
+font-size: 16px;
+transition: color 0.4s linear;}
+.number:hover{color: #0591CC;}
+/*заголовок*/
+.title{max-width: 530px;
+margin-top: 48px;}
+h1{font-size: 40px;
+font-family: 'Russo One', sans-serif;
+text-transform: uppercase;
+font-weight: 700;}
+.blue_title{color: #46B1DE;}
+.title-bottom{margin-top: 10px;
+font-weight: 700;
+font-size: 16px;
+color: #1B1D1F;
+max-width: 460px;}
+/*кнопки*/
+.bottom{
+display: flex;
+text-transform: uppercase;
+margin: 50px 0 260px 0;
+font-size: 19px;}
+.bot_call{background: linear-gradient(97.59deg, #46B1DE 9.8%, #0591CC 95.1%);
+color: white;
+box-shadow: 0px 2px 10px #46B1DE;
+padding: 18px 35px;
+text-decoration: none;
+font-weight: 600;
+border: 1px solid #1B1D1F;
+width: 180px;
+height: 60px;
+text-align: center;}
+.bot_serv{background: #FFFFFF;
+box-shadow: 0px 2px 10px #DDE0DC;
+border: 1px solid #1B1D1F;
+color: #46B1DE;
+margin-left: 120px;
+padding: 20px 50px;
+text-decoration: none;
+font-weight: 600;}
+/*карточки*/
+.card{
+position: relative;
+display: flex;
+justify-content: center;
+z-index: 2;
+grid-column-gap: 40px;}
+.wrap{background-color: white;
+border: 1px solid #1B1D1F;
+width: 280px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding: 10px;
+display: flex;
+align-items: center;}
+.block_num{font-size: 65px;
+color: #46B1DE;
+margin: 0 10px;
+font-family: "MullerBold";
+font-weight: 700;}
+.block_text{white-space: normal;
+vertical-align: middle;
+font-weight: 400;
+font-size: 14px;}
+.wrap:last-child{margin-right: 0;}
+.card_image{position: absolute;
+top: 161px;
+left: 600px;
+z-index: 1;}
+/*why me*/
+.why_me{display: flex;
+    justify-content: center;
+    margin: 90px 0 80px 0;}
+.wm_title{margin-bottom: 50px;
+text-align: center;}
+.wm-title-top{text-transform: uppercase;
+font-size: 40px;
+font-family: "MullerBold";
+font-weight: 800;}
+.title-blue{color: #46B1DE;}
+.wm-title-down{margin-top: 5px;
+font-size: 16px;}
+.wm_body{display: flex;
+max-width: 1020px;
+padding: 15px 20px;
+background-color: #A1C7D4;;
+border-radius: 12px;
+grid-column-gap: 30px;}
+.wm_body-block{display: flex;
+flex-direction: column;
+justify-content: center;}
+.wm_body-card{background-color: white;
+width: 300px;
+height: 176px;
+border-radius: 8px;}
+.wm_body-card.last{margin-top: 10px;}
+.wm-number{display: flex;
+align-items: center;
+text-align: left;
+color: #46B1DE;
+font-size: 40px;
+padding: 10px 20px 25px 20px;
+font-family: "MullerBold";
+font-weight: 700;}
+.wm-bigtext{font-size: 18px;
+font-weight: 700;
+padding: 0 0 0 10px;}
+.wm-text{
+font-size: 16px;
+padding: 0 20px;}
+  /*footer*/
+.footer{padding: 60px 0 10px 0;
+    background: linear-gradient(91.75deg, #A1C7D4 18.06%, #0680AA 98.16%);
+    }
+.footer_body{display: flex;
+    justify-content: space-between;}
+.footer_block{max-width: 425px;
+    float: left;}
+.footer_logo{display: flex;}
+.footer_logoimage{
+    margin-right: 10px;
+    height: 40px;}
+.footer_text-title{
+    color: #0F2D4A;
+    font-size: 38px;
+    font-weight: 400;}
+.footer_text-dentist{font-size: 26px;}
+.footer_inblock{display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 50px;}
+.footer_nav-text:hover{color: white;}  
+.footer_lang-ua:hover{color: white;}  
+.footer_lang-ea:hover{color: white;}    
+.footer_nav-text{color: #0F2D4A;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;}
+.footer_lang-ua{border-right: 1px solid black;
+    padding-right: 10px; color: inherit;
+    text-decoration: none;
+    font-weight: 600;}
+.footer_lang-ea{padding-left: 10px; 
+    color: inherit;
+    text-decoration: none;}
+.footer_working-text{font-size: 20px;
+    margin-bottom: 10px;
+font-weight: 600;}
+.footer_working-week{line-height: 135%;}
+.footer_contacts{color: white;
+    display: block;
+    float: left;
+    max-width: 350px;
+    font-size: 20px;}
+.footer_title-cont{font-size: 34px;
+font-weight: 600;
+margin-bottom: 15px;
+text-transform: uppercase;}
+.footer_nik-tes{margin-bottom: 15px;}
+.footer_ny{margin-bottom: 15px;}
+.footer_phone{display: flex;
+    margin-bottom: 10px;}
+.footer_img{padding-right: 10px;}
+.footer_img::before{content: "";
+    height: 25px;}
+.footer_number {text-decoration: none;
+    color: white;}
+ .footer_number:hover{color: white;
+    text-decoration: underline;}    
+.footer_messeger{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;}
+.footer_messeger-contact1{
+    background-image: url('../img/viber.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25px;
+    padding: 0px 20px;}
+.footer_messeger-contact2{
+    background-image: 
+    url('../img/telegram.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25px;
+    padding: 0px 20px;}
+.footer_messeger-contact3{
+    background-image:
+    url('../img/whatsapp.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25px;
+    padding: 0px 20px;}
+.footer_messeger-insta{
+    background-image: url('../img/instagram.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-decoration: none;
+    padding: 0 40px;
+    color: white;
+    height: 25px;}
+.footer_messeger-email{
+background-image: url('../img/email.png');
+background-repeat: no-repeat;
+background-size: contain;
+text-decoration: none;
+padding: 0 40px;
+color: white;
+height: 25px;}
+.footer_messeger-insta:hover{
+    text-decoration: underline;
+    color: white;}
+.footer_messeger-email:hover{color: white;
+    text-decoration: underline;}
+.copyring{text-align: right;
+margin: 10px 50px 0 0;
+color: white;}
